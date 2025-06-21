@@ -1,0 +1,62 @@
+/* upload360.css */
+.upload-area {
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #f8f9fa;
+}
+
+.preview-container {
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.preview-area {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#scenePreview {
+    max-height: 300px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+#imagePreview {
+    max-height: 300px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-outline-primary, .btn-outline-success, .btn-outline-danger {
+    transition: all 0.2s;
+    /* Add these styles to your existing CSS */
+    #scenePreviewContainer
+    transition: all 0.3s ease;
+}
+
+#scenePreview {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#title {
+    margin-bottom: 15px;
+}
+
+/* Existing styles... */
+}
